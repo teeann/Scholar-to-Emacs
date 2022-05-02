@@ -1,0 +1,11 @@
+* Scholar-to-Emacs
+Web extension to import Google Scholar data into Emacs bibliography systems
+* Why?
+My research workflow mostly revolves around Emacs. Although there are many Emacs packages that supports managing bibliographic data and PDF documents, none of them (as far as I know) provides an easy way to add research papers from Google Scholar.
+* How it works
+This web extension adds an /Import into Emacs/ link to each research entry in Google Scholar.
+Once clicked, these [[https://orgmode.org/worg/org-contrib/org-protocol.html][org-protocol]] links are opened in Emacs, which will import the Bibtex entries and PDF documents package ...
+* Installing
+1. Setup Firefox so that it uses Emacs to open =org-protocol= link as described here.
+2. Install and set up Emacs package [[https://github.com/teeann/scholar-import][scholar-import]]
+3. Enjoy!
