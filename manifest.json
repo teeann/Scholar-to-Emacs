@@ -1,0 +1,16 @@
+{
+  "description": "Import Google Scholar data into Emacs bibliography systems",
+  "manifest_version": 2,
+  "name": "Scholar to Emacs",
+  "version": "0.1.1",
+  "homepage_url": "https://github.com/teeann/Scholar-to-Emacs",
+  "icons": {
+    "48": "icons/emacs-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.scholar.google.com/*"],
+      "js": ["emacs_scholar.js"]
+    }
+  ]
+}
