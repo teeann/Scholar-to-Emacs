@@ -9,9 +9,17 @@ Although there are many Emacs packages that supports managing bibliographic data
 This web extension adds an /Import into Emacs/ link to each research entry in Google Scholar.
 Once clicked, these [[https://orgmode.org/worg/org-contrib/org-protocol.html][org-protocol]] links are opened in Emacs, which will import the *Bibtex* entries and *PDF* documents through [[https://github.com/teeann/scholar-import][scholar-import]].
 It simply appends Bibtex entries into a =.bib= file and download the corresponding PDF files.
-** Installing
+** Installation Instructions
+*** Google Chrome / Microsoft Edge
+1. Download this repo as a [[https://github.com/teeann/Scholar-to-Emacs/archive/master.zip][Zip file from GitHub]].
+2. Unzip the file and you should have a folder named =Scholar-to-Emacs-main=.
+3. In Chrome/Edge go to the extensions page (`chrome://extensions` or `edge://extensions`).
+4. Enable Developer Mode.
+5. Drag the =Scholar-to-Emacs-main= folder anywhere on the page to import it (do not delete the folder afterwards).
+*** Firefox
 1. Install this extension via [[https://addons.mozilla.org/en-US/firefox/addon/scholar-to-emacs/][Firefox Addons site]].
-2. Setup Firefox so that it uses Emacs to open =org-protocol= link as described [[https://orgmode.org/worg/org-contrib/org-protocol.html#org8c1fa25][here]].
-3. Enable /Show links to import citations into Bibtex/ option in Google Scholar setting.
-4. Install and set up Emacs package [[https://github.com/teeann/scholar-import][scholar-import]].
-5. (Optional) Install an Emacs bibliography management package (e.g. [[https://github.com/bdarcus/citar][citar]], [[https://github.com/tmalsburg/helm-bibtex][helm-bibtex]] or [[https://github.com/jkitchin/org-ref][org-ref]]) for better experience.
+*** Notes
+1. Setup your browser so that it uses Emacs to open =org-protocol= link as described [[https://orgmode.org/worg/org-contrib/org-protocol.html#org8c1fa25][here]].
+2. Enable /Show links to import citations into Bibtex/ option in Google Scholar setting.
+3. Install and set up Emacs package [[https://github.com/teeann/scholar-import][scholar-import]].
+4. (Optional) Install an Emacs bibliography management package (e.g. [[https://github.com/bdarcus/citar][citar]], [[https://github.com/tmalsburg/helm-bibtex][helm-bibtex]] or [[https://github.com/jkitchin/org-ref][org-ref]]) for better experience.
